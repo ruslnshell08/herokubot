@@ -9,24 +9,17 @@ from telebot import types
 
 
 
-bot: TeleBot =telebot.TeleBot("1465386978:AAER4hIr6kGbAGc7KGqLj2un2DRFG_vfUWQ")
+bot: TeleBot =telebot.TeleBot("token")
 
 
 
 def foo():
-	URL = "https://www.google.com/search?ei=IrMCYOiFBIytrgTdqKT4DA&q" \
-		  "=%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80+%D0%BA+%D0%B3%D1%80%D0%B" \
-		  "8%D0%B2%D0%BD%D0%B5&oq=%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80+r+&gs_lcp=Cg" \
-		  "Zwc3ktYWIQAxgAMgkIABCxAxAKECoyBwgAELEDEEMyBAgAEAoyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEA" \
-		  "oyBAgAEAoyBAgAEAoyBAgAEEM6BAgAEEc6AggAOgYIABAWEB46BAgAEA06BggAEAcQHjoICAAQCBAHEB46BQg" \
-		  "AELEDOgoIABCxAxCDARBDOgYIABAKECpQmTJYqGFg-GtoAHACeACAAWmIAd4JkgEEMTAuM5gBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab"
-	URL2 = "https://www.google.com/search?q=%D0%B4%D0%BE%D0%BB%D0%B0%D1%80+%D0%B2" \
-		   "+%D1%80%D1%83%D0%B1%D0%BB%D0%B8&oq=%D0%B4%D0%BE&aqs=chrome.1.69i59l3j69i" \
-		   "57j0j69i61l3.2039j1j7&sourceid=chrome&ie=UTF-8"
+	URL = ""
+	URL2 = ""
 
 
 	headers = {
-		"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"}
+		"User-Agent":"}
 
 
 
@@ -39,14 +32,9 @@ def foo():
 
 
 def foo2():
-	URL = "https://www.google.com/search?ei=IrMCYOiFBIytrgTdqKT4DA&q" \
-		  "=%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80+%D0%BA+%D0%B3%D1%80%D0%B" \
-		  "8%D0%B2%D0%BD%D0%B5&oq=%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80+r+&gs_lcp=Cg" \
-		  "Zwc3ktYWIQAxgAMgkIABCxAxAKECoyBwgAELEDEEMyBAgAEAoyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEA" \
-		  "oyBAgAEAoyBAgAEAoyBAgAEEM6BAgAEEc6AggAOgYIABAWEB46BAgAEA06BggAEAcQHjoICAAQCBAHEB46BQg" \
-		  "AELEDOgoIABCxAxCDARBDOgYIABAKECpQmTJYqGFg-GtoAHACeACAAWmIAd4JkgEEMTAuM5gBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab"
+	URL = ""
 	headers = {
-		"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"}
+		"User-Agent":"}
 
 	full_page = requests.get(URL, headers=headers)
 	# print(full_page.content)
